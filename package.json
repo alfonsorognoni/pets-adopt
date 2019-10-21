@@ -14,6 +14,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
     "babel-eslint": "^10.0.3",
     "cross-env": "^6.0.3",
     "eslint": "^6.5.1",
@@ -27,8 +31,9 @@
   },
   "dependencies": {
     "@frontendmasters/pet": "^1.0.3",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2"
+    "@reach/router": "^1.2.1",
+    "react": "15.x || 16.x || 16.4.0-alpha.0911da3",
+    "react-dom": "15.x || 16.x || 16.4.0-alpha.0911da3"
   },
   "browserslist": [
     "last 1 Chrome version"
